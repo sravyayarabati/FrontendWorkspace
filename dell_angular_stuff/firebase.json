@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/dell_angular_stuff",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
