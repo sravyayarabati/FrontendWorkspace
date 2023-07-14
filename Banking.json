@@ -1,0 +1,36 @@
+{
+  "customers": [
+    {
+      "FirstName": "Raj",
+      "LastName" : "Kumar",
+      "DOB" 	 : "11-01-1980",
+      "email"	 : "Raj@gmail.com",
+      "DOB" 	 :  9107894567,
+      "id"	 :  12356
+    },
+    {
+      "FirstName": "Sai",
+      "LastName" : "Teja",
+      "DOB" 	 : "11-01-1980",
+      "email"	 : "Raj@gmail.com",
+      "DOB" 	 :  9107894567,
+      "id"	 : 12356
+    },
+    {
+      "FirstName": "Swetha",
+      "LastName" : "Kumar",
+      "DOB" 	 : "11-01-1980",
+      "email"	 : "Raj@gmail.com",
+      "DOB" 	 :  9107894567,
+      "id"	 : 12356
+    },
+    {
+      "FirstName": "Ananya",
+      "LastName" : "Rao",
+      "DOB" 	 : "11-01-1980",
+      "email"	 : "Raj@gmail.com",
+      "DOB" 	 :  9107894567,
+      "id"	 : 12356
+    }
+  ]
+}
