@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "name": "Raj",
+      "email": "Raj@gmail.com",
+      "id": 12356
+    },
+    {
+      "id": 124343,
+      "name": "Sai Kumar",
+      "email": "sai@gmail.com"
+    },
+    {
+      "uid": 1234,
+      "uname": "Suresh Kumar",
+      "email": "sresh@gmail.com",
+      "id": 124344
+    },
+    {
+      "id": 145678,
+      "name": "Sravya Y",
+      "email": "sravya@gmail.com"
+    },
+    {
+      "name": "swetha",
+      "email": "swetha@gmail.com",
+      "id": 145679
+    },
+    {
+      "name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "id": 145680
+    }
+  ]
+}
