@@ -1,0 +1,28 @@
+<p>employee works!</p>
+<html>
+    <head>
+        <title>Employee Info</title>
+    </head>
+    <body>
+        <h3>Employee Info</h3>
+     
+        <table class="table">
+            <tr>            <th>EmpId</th>
+            <th>EmpName</th>
+            <th>DOB</th>
+            <th>Gender</th>
+            <th>Salary</th>
+            </tr>
+            <tr *ngFor="let emp of emps" >
+                <td>{{emp.empcode}}</td>
+                <td>{{emp.name | uppercase |gender:emp.gender}}</td>
+                <td>{{emp.dateOfBirth | date:'medium' | uppercase}}</td>
+                <td>{{emp.gender}}</td>
+                <td>{{emp.sal | currency:'INR'}}</td>
+            </tr>
+            <tr *ngIf="emps.length==0">
+            <td>No Employees Found!</td>
+        </tr>
+        </table>
+    </body>
+</html>
